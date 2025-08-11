@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
@@ -17,8 +18,8 @@
             <a href="index.html">
                 <img src="images/logo.png">
             </a>
-            <div class="nav-links">
-               <i class="fa fa-window-close" aria-hidden="true"></i>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -27,7 +28,7 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
@@ -38,6 +39,160 @@
         
 
     </section>
+
+    <!-- Course -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Information Science and Engineering</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae provident eveniet cupiditate sint eos, repellat recusandae et iusto saepe, dignissimos voluptas aliquid explicabo? Amet rem non provident maiores eius quod.</p>
+            </div>
+        
+            <div class="course-col">
+                <h3>Computer Science and Engineering</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae provident eveniet cupiditate sint eos, repellat recusandae et iusto saepe, dignissimos voluptas aliquid explicabo? Amet rem non provident maiores eius quod.</p>
+            </div>
+        
+            <div class="course-col">
+                <h3>Machanical Engineering</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae provident eveniet cupiditate sint eos, repellat recusandae et iusto saepe, dignissimos voluptas aliquid explicabo? Amet rem non provident maiores eius quod.</p>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- campus -->
+     <section class="campus">
+        <h1>Our Campus</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/A-block.png" > 
+                <div class="layer">
+                    <h3>Administration Block</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/M-block.png" > 
+                <div class="layer">
+                    <h3>M-Block</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/mach-block.png" > 
+                <div class="layer">
+                    <h3>Machanical Block</h3>
+                </div>
+            </div>
+        </div>
+
+     </section>
+
+     <!-- Facilities -->
+
+     <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/hostel.png">
+                <h3>Hostel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/bus.png" height="134px">
+                <h3>Free Bus</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+        </div>
+     </section>
+     <!-- testimonials -->
+
+     <section class="testimonial">
+        <h3>What Our Student Says</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/student1.png" >
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima quam corrupti totam temporibus illo distinctio ea eligendi, officia facilis ratione. Vero perferendis numquam aut consequatur autem sint soluta eaque.</p>
+                    <h3>Pavan</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/student2.png" >
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima quam corrupti totam temporibus illo distinctio ea eligendi, officia facilis ratione. Vero perferendis numquam aut consequatur autem sint soluta eaque.</p>
+                    <h3>Keeriti</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>           
+        </div>
+        
+
+
+
+     </section>
+
+     <!-- call to Action -->
+      
+     <section class="cta">
+        <h1>Enroll For Our Various Online Courses<br> Anywhere From The World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+
+     </section>
+
+      <!-- Footer -->
+
+      <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Deserunt, ut quaerat doloribus enim aliquam sed. <br>Perspiciatis nihil voluptatum quidem error ipsum, repellat reiciendis </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart"></i> by Easy Coding</p>
+
+
+      </section>
+
+    <!-- JavaScript for Toggle Menu -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
     
 </body>
 </html>
